@@ -1,0 +1,16 @@
+.ContactList {
+  max-width: 600px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+#ContactItem {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.Text {
+  font-size: 20px;
+  margin: 0;
+}
