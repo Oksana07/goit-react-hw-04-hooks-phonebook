@@ -1,34 +1,28 @@
-.Container {
-  max-width: 600px;
-  background-color: rgb(243, 242, 242);
-  margin-left: auto;
-  margin-right: auto;
+.contact__form {
+  margin: 0;
+  padding-left: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  width: 600px;
 }
-.Form {
+
+.input__number,
+.input__name {
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  border: 1px solid rgb(46, 41, 39);
-  padding: 25px;
+  margin-bottom: 15px;
+  width: 500px;
+  margin-left: 30px;
+  height: 40px;
 }
-.FormTitle {
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 20px;
+
+.input__title {
+  font-style: 900;
+  font-size: 20px;
 }
-.FormBtn {
-  font-size: 25px;
-  font-weight: 600;
-  padding: 15px;
-  margin: 15px 30px 0 30px;
-  background-color: rgb(30, 102, 210);
-  color: aliceblue;
-}
-.FormInput {
-  font-size: 25px;
-  padding: 5px;
-}
-h1,
-h2 {
-  display: flex;
-  justify-content: center;
+
+.btn__add {
+  margin-bottom: 10px;
+  height: 30px;
+  color: black;
+  background-color: cadetblue;
 }
